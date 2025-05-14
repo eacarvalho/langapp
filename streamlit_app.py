@@ -12,8 +12,6 @@ if not OPENAI_API_KEY:
 
 llm = ChatOpenAI(model="gpt-4.1-nano-2025-04-14", api_key=OPENAI_API_KEY)
 
-st.title("Ask Anything")
-
 question = st.text_input("Enter the question: ")
 
 if question:
